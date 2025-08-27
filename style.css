@@ -14,6 +14,7 @@ font-family: fantasy;
  .hero {
     background-image: url("hero_pic.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 
 
