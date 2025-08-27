@@ -1,0 +1,45 @@
+h1 {
+  color:rgb(247, 0, 0);
+  text-align: center;
+  font-size: 30px;
+}
+ p {
+color:rgb(0, 166, 255);
+text-align: center;
+font-family: fantasy;
+
+  font-size: 20px;
+ }
+
+ .hero {
+    background-image: url("hero_pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+ }
+
+ .project_buttons{
+    display: flex;
+    justify-content: center;
+ }
+
+
+ .project_buttons button{
+    background-color: transparent;
+    color:rgb(56, 56, 56);
+    border: 2px solid #ff6B81;
+    padding: 20px 30px;
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+
+ }
+
+ .project_buttons button:hover{
+    background-color: #ff6B81;
+    color:#fff;
+    transform: scale(1.5);
+
+ }
